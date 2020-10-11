@@ -1,0 +1,93 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Roboto", sans-serif;
+  width: 1600px;
+  font-weight: 500;
+}
+header {
+  height: 80px;
+  width: 1600px;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  margin: 0px;
+}
+a {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration-line: underline;
+  color: #2196f3;
+}
+.logo1 {
+  font-family: "Raleway", sans-serif;
+  margin-left: 215px;
+  font-weight: 700;
+  font-size: 26px;
+  color: #2196f3;
+  padding: 0px;
+}
+.logo1:visited {
+  color: #2196f3;
+}
+.logo2 {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  color: #000000;
+  padding: 0px;
+}
+.logo2:visited {
+  color: #000000;
+}
+.navi {
+  display: flex;
+  list-style: none;
+  margin-top: 24px;
+}
+.navi:visited {
+  color: #212121;
+}
+.navi:hover {
+  color: #2196f3;
+}
+.navi-menu {
+  margin-top: 8px;
+  padding: 0px;
+  display: flex;
+  list-style: none;
+  margin-left: 93px;
+}
+.navi-list {
+  color: #212121;
+  margin-right: 50px;
+}
+.sect1 {
+  width: 1600px;
+  background-color: #2f303a;
+  color: #ffffff;
+  font-size: 44px;
+  font-weight: 900;
+  padding-top: 200px;
+  padding-left: 452px;
+  height: 600px;
+}
+.color-for-contacts {
+  color: #212121;
+}
+.main {
+  margin: 0px;
+}
+.addr {
+  font-style: normal;
+  padding: 0px;
+  margin-left: 331px;
+  margin-top: 32px;
+}
+.marg-for-tel {
+  margin-left: 50px;
+}
+.textcolor-for-addr {
+  color: #757575;
+}
