@@ -4,34 +4,35 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Web Studio</title>
-    <link rel="stylesheet" href="./css/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
   </head>
   <body>
     <header>
-      <nav class="navi">
-        <a href="./"><span class="logo1">Web</span><span class="logo2">Studio</span></a>
-        <ul class="navi-menu">
-          <li ><a href="#"class="navi-list">Студия</a></li>
-          <li ><a href="#" class="navi-list">Портфолио</a></li>
-          <li ><a href="#contacts" class="color-for-contacts">Контакты</a></li>
+      <nav>
+        <a href="./" class="logo"><span class="web">Web</span><span class="stud">Studio</span></a>
+        <ul class="nav list">
+          <li ><a href="./">Студия</a></li>
+          <li ><a href="#">Портфолио</a></li>
+          <li ><a href="#contacts">Контакты</a></li>
         </ul>
       </nav>
       <address class="addr">
-        <a href="mailto:info@example.com" class="textcolor-for-addr">info@devstudio.com</a>
-        <a href="tel:+380961111111" class="textcolor-for-addr marg-for-tel">+38 096 111 11 11</a>
+        <a href="mailto:info@example.com">info@devstudio.com</a>
+        <a href="tel:+380961111111">+38 096 111 11 11</a>
       </address>
     </header>
 
-    <main class="main">
-      <section class="sect-wiht-but">
+    <main>
+      <section class="hero">
         <h1>эффективные решения для вашего бизнеса</h1>
-        <button type="button" class="button">Заказать услугу</button>
+        <button type="button">Заказать услугу</button>
       </section>
-      <section class="our-char">
+
+      <section class="characteristics">
         <h2 hidden>Наши характеристики</h2>
-        <ul class="our-char-list">
+        <ul class="list">
           <li>
             <h3>Внимание к деталям</h3>
             <p>Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
@@ -51,43 +52,43 @@
         </ul>
       </section>
 
-      <section>
+      <section class="work">
         <h2>Чем мы занимаемся</h2>
-        <ul>
+        <ul class="list">
           <li><img src="images/work/img1.jpg" alt="pict1" width="370" height="294"/></li>
           <li><img src="images/work/img2.jpg" alt="pict2" width="370" height="294"/></li>
           <li><img src="images/work/img3.jpg" alt="pict3" width="370" height="294"/></li>
         </ul>
       </section>
-      <section>
+      <section class="team">
         <h2>Наша команда</h2>
-        <ul>
+        <ul class="list">
           <li>
             <img src="images/team/img1.jpg" alt="team1" width="270" height="260" />
-            <p>Игорь Демьяненко</p>
-            <p>Product Designer</p>
+            <p class="name">Игорь Демьяненко</p>
+            <p class="prof">Product Designer</p>
           </li>
           <li>
             <img src="images/team/img2.jpg" alt="team2" width="270" height="260" />
-              <p>Ольга Репина</p>
-              <p>Frontend Developer</p>
+              <p class="name">Ольга Репина</p>
+              <p class="prof">Frontend Developer</p>
           </li>
           <li>
             <img src="images/team/img3.jpg" alt="team3" width="270" height="260" />
-            <p>Николай Тарасов</p>
-            <p>Marketing</p>
+            <p class="name">Николай Тарасов</p>
+            <p class="prof">Marketing</p>
           </li>
           <li>
             <img src="images/team/img4.jpg" alt="team4" width="270" height="260" />
-            <p>Михаил Ермаков</p>
-            <p>UI Designer</p>
+            <p class="name">Михаил Ермаков</p>
+            <p class="prof">UI Designer</p>
           </li>
         </ul>
       </section>
     </main>
 
-    <footer>
-      <span>WebStudio</span>
+    <footer class="footer">
+      <a href="./" class="logo"><span class="web">Web</span><span class="stud">Studio</span></a>
       <address id="contacts">
         <p>Г. Киев, пр-т Леси Украинки, 26</p>
         <a href="mailto:info@example.com">info@example.com</a>
