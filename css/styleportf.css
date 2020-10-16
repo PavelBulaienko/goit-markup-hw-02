@@ -5,14 +5,15 @@
   --light-black: #212121;
   --white: #ffffff;
   --grey: #757575;
+  --lightgrey: #f5f4fa;
   --transparentwhite: rgba(255, 255, 255, 0.6);
 }
 body {
   font-family: Roboto;
   font-style: normal;
   font-weight: 400;
-  font-size: 14px;
-  line-height: 1.71;
+  font-size: 16px;
+  line-height: 1.88;
   letter-spacing: 0.03em;
   color: var(--grey);
 }
@@ -44,7 +45,7 @@ a {
   letter-spacing: 0.02em;
   color: var(--light-black);
 }
-.nav .studio {
+.nav .portfolio {
   color: var(--blue);
 }
 .nav > li > a:hover {
@@ -61,64 +62,18 @@ a {
 .addr > a:hover {
   color: var(--blue);
 }
-.hero {
-  background-color: var(--dark-bg);
-}
-.hero > h1 {
-  font-weight: 900;
-  font-size: 44px;
-  line-height: 1.36;
-  text-align: center;
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
-  color: var(--white);
-}
-.hero > button {
-  background-color: var(--blue);
-  color: var(--white);
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 1.87;
-  text-align: center;
-  letter-spacing: 0.06em;
-}
-.characteristics > ul > li > h3 {
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
+.menu > ul > li > a {
+  background-color: var(--lightgrey);
   color: var(--light-black);
-}
-.work > h2 {
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.17;
-  text-align: center;
-  letter-spacing: 0.03em;
-  color: var(--light-black);
-}
-.team > h2 {
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.17;
-  text-align: center;
-  letter-spacing: 0.03em;
-  color: var(--light-black);
-}
-.team .name {
   font-weight: 500;
   font-size: 16px;
-  line-height: 1.19;
+  line-height: 26px;
   text-align: center;
   letter-spacing: 0.03em;
-  color: var(--light-black);
 }
-.team .prof {
-  font-size: 16px;
-  line-height: 1.19;
-  text-align: center;
-  letter-spacing: 0.03em;
+.menu .all-menu {
+  background-color: var(--blue);
+  color: var(--white);
 }
 .footer {
   background-color: var(--dark-bg);
@@ -137,4 +92,11 @@ a {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--transparentwhite);
+}
+.project-name {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--light-black);
 }
