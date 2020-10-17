@@ -8,7 +8,7 @@
   --transparentwhite: rgba(255, 255, 255, 0.6);
 }
 body {
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -26,7 +26,7 @@ a {
   list-style: none;
 }
 .logo {
-  font-family: Raleway;
+  font-family: Raleway, sans-serif;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
@@ -47,6 +47,7 @@ a {
 .nav .studio {
   color: var(--blue);
 }
+.nav > li > a:focus,
 .nav > li > a:hover {
   color: var(--blue);
 }
@@ -58,6 +59,7 @@ a {
   letter-spacing: 0.02em;
   color: var(--grey);
 }
+.addr > a:focus,
 .addr > a:hover {
   color: var(--blue);
 }
@@ -126,13 +128,13 @@ a {
 .footer .logo .stud {
   color: var(--white);
 }
-#contacts p {
+.contacts p {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--white);
 }
-#contacts a {
+.contacts a {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;

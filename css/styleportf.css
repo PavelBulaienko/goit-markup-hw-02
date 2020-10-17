@@ -9,7 +9,7 @@
   --transparentwhite: rgba(255, 255, 255, 0.6);
 }
 body {
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -27,7 +27,7 @@ a {
   list-style: none;
 }
 .logo {
-  font-family: Raleway;
+  font-family: Raleway, sans-serif;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
@@ -48,6 +48,7 @@ a {
 .nav .portfolio {
   color: var(--blue);
 }
+.nav > li > a:focus,
 .nav > li > a:hover {
   color: var(--blue);
 }
@@ -59,10 +60,11 @@ a {
   letter-spacing: 0.02em;
   color: var(--grey);
 }
+.addr > a:focus,
 .addr > a:hover {
   color: var(--blue);
 }
-.menu > ul > li > a {
+.filter > ul > li > button {
   background-color: var(--lightgrey);
   color: var(--light-black);
   font-weight: 500;
@@ -71,7 +73,12 @@ a {
   text-align: center;
   letter-spacing: 0.03em;
 }
-.menu .all-menu {
+.filter > ul > li > button:focus,
+.filter > ul > li > button:hover {
+  background-color: var(--blue);
+  color: var(--white);
+}
+.filter .all-menu {
   background-color: var(--blue);
   color: var(--white);
 }
@@ -81,13 +88,13 @@ a {
 .footer .logo .stud {
   color: var(--white);
 }
-#contacts p {
+.contacts p {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--white);
 }
-#contacts a {
+.contacts a {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
